@@ -5,7 +5,7 @@ class StreamCreate extends React.Component {
   renderInput({ input, label }) {
     return (
       <div className="field">
-        <label />
+        <label>{label}</label>
         <input {...input} />
       </div>
     );
@@ -13,7 +13,7 @@ class StreamCreate extends React.Component {
 
   render() {
     return (
-      <form>
+      <form className="ui form">
         <Field name="title" component={this.renderInput} label="Enter Title" />
         <Field name="description" component={this.renderInput} label="Enter Description" />
       </form>
