@@ -43,5 +43,5 @@ const validate = formValues => {
 
 export default reduxForm({
   form: "streamCreate",
-  validate
+  validate // condensed form of validate: "validate"
 })(StreamCreate);
