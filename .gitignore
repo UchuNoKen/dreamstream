@@ -2,3 +2,4 @@ node_modules*
 /client/.gitignore
 
 notes.txt
+db.json*
