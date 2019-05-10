@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="ui secondary pointing menu">
       <Link to="/" className="item">
-        DreamStream
+        DreemStream
       </Link>
       <div className="right menu" />
       <Link to="/" className="item">
