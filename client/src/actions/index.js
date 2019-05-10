@@ -1,5 +1,7 @@
 import streams from "../apis/streams";
 import history from "../history";
+
+// import action types
 import {
   SIGN_IN,
   SIGN_OUT,
@@ -10,6 +12,7 @@ import {
   EDIT_STREAM
 } from "./types";
 
+// signIn action creator
 export const signIn = userId => {
   return {
     type: SIGN_IN,
@@ -17,6 +20,7 @@ export const signIn = userId => {
   };
 };
 
+// signOut action creator
 export const signOut = () => {
   return {
     type: SIGN_OUT
